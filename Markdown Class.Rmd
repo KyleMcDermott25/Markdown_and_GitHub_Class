@@ -15,7 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 klippy::klippy()
 ```
 
-
 # Level 1 header
 
 ## subheader
@@ -56,7 +55,6 @@ this is the formula $y = mx+b^2$
 
 see the equation below $$y = mx+b^2$$
 
-
 ctrl+alt+i
 
 ```{r histogram, message=FALSE, warning=FALSE}
@@ -67,4 +65,3 @@ data("penguins")
 
 penguins %>% ggplot(aes(x=flipper_length_mm))+geom_histogram()
 ```
-
